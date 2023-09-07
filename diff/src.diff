@@ -1,0 +1,13 @@
+diff --git a/src/ver/CMakeLists.txt b/src/ver/CMakeLists.txt
+index bb5b32c65..077879b20 100644
+--- a/src/ver/CMakeLists.txt
++++ b/src/ver/CMakeLists.txt
+@@ -2,7 +2,7 @@
+ # Copyright (C) 2020  Igara Studio S.A.
+ 
+ # Version of Aseprite
+-set(VERSION "1.x-dev")
++set(VERSION "1.3-rc6-dev")
+ 
+ configure_file(
+   "${CMAKE_CURRENT_SOURCE_DIR}/generated_version.h.in"

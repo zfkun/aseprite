@@ -1,0 +1,38 @@
+diff --git a/data/gui.xml b/data/gui.xml
+index a213b7e6e..4b9f1350a 100644
+--- a/data/gui.xml
++++ b/data/gui.xml
+@@ -17,6 +17,7 @@
+       <key command="ShowMenu" shortcut="Alt+T"><param name="menu" value="select_menu" /></key>
+       <key command="ShowMenu" shortcut="Alt+V"><param name="menu" value="view_menu" /></key>
+       <key command="ShowMenu" shortcut="Alt+H"><param name="menu" value="help_menu" /></key>
++      <key command="ShowMenu" shortcut="Alt+U"><param name="menu" value="upgrade_menu" /></key>
+ 
+       <!-- File -->
+       <key command="NewFile" shortcut="Ctrl+N" mac="Cmd+N" />
+@@ -1069,6 +1070,12 @@
+         <separator />
+         <item command="About" text="@.help_about" group="help_about" />
+       </menu>
++      <menu text="@.upgrade" id="upgrade_menu">
++        <item command="Launch" text="@.upgrade_release" group="upgrade_release">
++          <param name="type" value="url" />
++          <param name="path" value="https://github.com/zfkun/aseprite/releases" />
++        </item>
++      </menu>
+     </menu>
+ 
+     <menu id="tab_popup_menu">
+diff --git a/data/strings/en.ini b/data/strings/en.ini
+index 01ba2a067..55e2ad091 100644
+--- a/data/strings/en.ini
++++ b/data/strings/en.ini
+@@ -1368,6 +1368,8 @@ help_release_notes = Release Notes
+ help_twitter = Twitter
+ help_enter_license = Enter &License
+ help_about = &About
++upgrade = &Upgrade
++upgrade_release = Download &Release
+ 
+ [mask_by_color]
+ title = Select Color
