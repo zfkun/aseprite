@@ -1,5 +1,5 @@
 diff --git a/data/gui.xml b/data/gui.xml
-index a213b7e6e..4b9f1350a 100644
+index b4afc7a92..83b127a46 100644
 --- a/data/gui.xml
 +++ b/data/gui.xml
 @@ -17,6 +17,7 @@
@@ -10,7 +10,7 @@ index a213b7e6e..4b9f1350a 100644
  
        <!-- File -->
        <key command="NewFile" shortcut="Ctrl+N" mac="Cmd+N" />
-@@ -1069,6 +1070,12 @@
+@@ -1087,6 +1088,12 @@
          <separator />
          <item command="About" text="@.help_about" group="help_about" />
        </menu>
@@ -24,10 +24,10 @@ index a213b7e6e..4b9f1350a 100644
  
      <menu id="tab_popup_menu">
 diff --git a/data/strings/en.ini b/data/strings/en.ini
-index 01ba2a067..55e2ad091 100644
+index 1ea1b13bc..a66f82cd9 100644
 --- a/data/strings/en.ini
 +++ b/data/strings/en.ini
-@@ -1368,6 +1368,8 @@ help_release_notes = Release Notes
+@@ -1170,6 +1170,8 @@ help_release_notes = Release Notes
  help_twitter = Twitter
  help_enter_license = Enter &License
  help_about = &About
